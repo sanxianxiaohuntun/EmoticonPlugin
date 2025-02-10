@@ -35,7 +35,7 @@ class EmoticonPlugin(BasePlugin):
         emoticon_list = ", ".join(self.emoticons.keys())
         emoticon_prompt = llm_entities.Message(
             role='system',
-            content=f"你可以在对话中使用表情包来表达情感、心情、态度，用户收到的表情包图片会显示在消息前面，格式为[:表情名]。当前支持的表情: {emoticon_list}。"
+            content=f"你可以在对话中使用表情包来表达情感、心情、态度，用户收到的表情包图片会显示在消息前面，每次只允许使用一个表情包，格式为[:表情名]。当前支持的表情: {emoticon_list}。"
         )
         last_user_index = -1
         for i, prompt in enumerate(ctx.event.default_prompt):
