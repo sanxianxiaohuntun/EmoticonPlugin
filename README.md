@@ -15,7 +15,7 @@
 配置完成 [LangBot](https://github.com/RockChinQ/LangBot) 主程序后使用管理员账号向机器人发送命令即可安装：
 
 ```
-!plugin get <插件仓库地址>
+!plugin get https://github.com/sanxianxiaohuntun/EmoticonPlugin
 ```
 
 ## 使用方法
@@ -27,12 +27,6 @@
 3. 插件会自动扫描并加载新添加的表情包
 
 ### 2. 使用表情包
-
-在对话中使用 `[:表情名]` 的格式来发送表情包，例如：
-
-```
-[:开心]今天天气真不错！
-```
 
 如果表情包存在，机器人会：
 1. 发送"开心"对应的表情包图片
