@@ -1,0 +1,16 @@
+{
+  "url_prefix": "http://your-server-ip:port/images",
+  "use_url": true,
+  "emoticons": [
+    "愉快",
+    "关心",
+    "无语",
+    "惊讶",
+    "难过",
+    "疑惑",
+    "安慰",
+    "害羞",
+    "担忧",
+    "爱你"
+  ]
+}
